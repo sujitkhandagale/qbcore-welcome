@@ -3,12 +3,12 @@
 <head>
     <meta charset="utf-8">
     <meta id="viewport" name="viewport"
-        content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-    <link rel="stylesheet" type="text/css" href="style.css" />
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.13.0/css/all.css" />
-    <link href="https://cdn.jsdelivr.net/npm/quasar@2.1.0/dist/quasar.prod.css" rel="stylesheet" type="text/css" />
+          content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.13.0/css/all.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/quasar@2.1.0/dist/quasar.prod.css" rel="stylesheet" type="text/css"/>
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900|Material+Icons" rel="stylesheet"
-        type="text/css" />
+          type="text/css"/>
     <!-- cdns -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
@@ -16,113 +16,130 @@
 </head>
 
 <body>
-    <div class="loading-container" style="min-height: auto;">
-        <!--            bg image-->
-        <div class="background-image">
-            <img src="../assets/bg-1.jpg" alt="bg 1">
-        
-        </div>
-        <!--             info boxes -->
-        <div class="info_boxes">
-            <div class="info_box player">
-                <div class="audio_player">
-                    <audio id="audio" src="https://cdn.pixabay.com/audio/2024/06/14/audio_0e2636099d.mp3" autoplay></audio>
-                    <div class="controls">
-                        <div class="button" id="volume-down">
-                            <i class="fas fa-minus"></i>
-                        </div>
-                        <div class="button" id="play-pause">
-                            <i class="fas fa-play"></i>
-                        </div>
-                        <div class="button" id="volume-up">
-                            <i class="fas fa-plus"></i>
-                        </div>
+<div class="loading-container" style="min-height: auto;">
+    <div class="background-image">
+        <img id="image" src="../assets/bg-1.jpg" alt="bg 1">
+    </div>
+    <div class="logo">
+       <div class="image">
+           <img src="../assets/logo.png" alt="logo">
+           <div class="border"></div>
+       </div>
+        <h2>
+            Asiatic Roleplay India
+        </h2>
+    </div>
+    <div class="info_boxes">
+        <div class="info_box player">
+            <div class="audio_player">
+                <audio id="audio" src="https://cdn.pixabay.com/audio/2024/06/14/audio_0e2636099d.mp3" autoplay></audio>
+                <div class="controls">
+                    <div class="button" id="volume-down">
+                        <i class="fas fa-minus"></i>
                     </div>
-                </div>
-                <!-- map infojosn -->
-            </div>
-        </div>
-        <!--    footer-->
-        <div class="footer">
-            <div class="footer-content">
-                <div class="footer-content-left">
-                    <h4>Developer</h4>
-                    <div class="icon-container">
-                        <a href="http://" target="_blank" rel="noopener noreferrer">
-                            <div class="icon">
-                                <img src="../assets/discord-icon.svg" alt="">
-                            </div>
-                        </a>
-                        <a href=""> <b>Asiatic Roleplay</b></a>
+                    <div class="button" id="play-pause">
+                        <i class="fas fa-play"></i>
                     </div>
-                    <h4>Socials</h4>
-                    <div class="icon-container">
-                        <a href="http://" target="_blank" rel="noopener noreferrer">
-                            <div class="icon">
-                                <img src="../assets/discord-icon.svg" alt="">
-                            </div>
-                        </a>
-                        <a href=""> <b>Asiatic Roleplay</b></a>
+                    <div class="button" id="volume-up">
+                        <i class="fas fa-plus"></i>
                     </div>
-                </div>
-                <div class="footer-content-right">
-                    <!-- <div class="progress-text" id="progress-text">
-                        <span>loading</span>
-                        <span id="percentage">0%</span>
-                    </div> -->
-                    <!-- <div class="progress-container">
-                        <div class="progress-bar" id="progress-bar">
-                        </div>
-                    </div> -->
                 </div>
             </div>
+            <!-- map infojosn -->
         </div>
-        <!--    loader-->
-        <div class="loading">
-            <!-- <div class="load"> -->
-            <span class="loader" id="loader"></span>
-            <!-- </div> -->
-        </div>
-        <div class="features">
-            <div class="f_box">
-                <h4>
-                    Best place for players
-                    </h2>
-                    <p>
-                        Enjoy the best experience with our server.
-
-                    </p>
-                    <span>Custom scripts, Active staff, cars, maps</span>
-
-
-
+    </div>
+    <div class="footer">
+        <div class="footer-content">
+            <div class="footer-content-left">
+                <h4>Developer</h4>
+                <div class="icon-container">
+                    <a href="http://" target="_blank" rel="noopener noreferrer">
+                        <div class="icon">
+                            <img src="../assets/discord-icon.svg" alt="">
+                        </div>
+                    </a>
+                    <a href=""> <b>Asiatic Roleplay</b></a>
+                </div>
+                <h4>Socials</h4>
+                <div class="icon-container">
+                    <a href="http://" target="_blank" rel="noopener noreferrer">
+                        <div class="icon">
+                            <img src="../assets/logo.png" alt="">
+                        </div>
+                    </a>
+                    <a href=""> <b>Asiatic Roleplay</b></a>
+                </div>
+            </div>
+            <div class="footer-content-right">
+                <!-- <div class="progress-text" id="progress-text">
+                    <span>loading</span>
+                    <span id="percentage">0%</span>
+                </div> -->
+                <!-- <div class="progress-container">
+                    <div class="progress-bar" id="progress-bar">
+                    </div>
+                </div> -->
             </div>
         </div>
     </div>
+    <div class="loading">
+        <!-- <div class="load"> -->
+        <span class="loader" id="loader"></span>
+        <!-- </div> -->
+    </div>
+    <div class="features">
+        <div class="f_box">
+            <h4>
+                Best place for players
+            </h4>
+            <p>
+                Enjoy the best experience with our server.
 
-    <script>
-        const infoJson = [
-            {
-                title: `Tips for a better experience`,
-                content: `Follow the server's rule and stay updated with the latest news.`
-            }, {
-                title: `Server info`,
-                content: "test info"
-            }
-        ]
-        //    map info to info boxes
-        const infoBoxes = document.querySelector('.info_boxes')
-        infoJson.forEach((info, index) => {
-            const infoBox = document.createElement('div')
-            infoBox.classList.add('info_box')
-            infoBox.innerHTML = `
+            </p>
+            <span>Custom scripts, Active staff, cars, maps</span>
+
+
+        </div>
+    </div>
+</div>
+<script>
+    const infoJson = [
+        {
+            title: `Tips for a better experience`,
+            content: `Follow the server's rule and stay updated with the latest news.`
+        }
+    ]
+    //    map info to info boxes
+    const infoBoxes = document.querySelector('.info_boxes')
+    infoJson.forEach((info, index) => {
+        const infoBox = document.createElement('div')
+        infoBox.classList.add('info_box')
+        infoBox.innerHTML = `
                 <h4>${info.title}</h4>
                 <span>${info.content}</span>
                 `
-            infoBoxes.appendChild(infoBox)
-        })
-    </script>
-    <!-- custum audio player with custom controls -->
-</body>
+        infoBoxes.appendChild(infoBox)
+    })
+//     update image every 2 sec with a fade effect
+    const image = document.getElementById('image');
+    // load images  from assets/images folder
+    const ImageLoaded = new Image();
+    const images = ['../assets/images/image1.jpg', '../assets/images/image2.jpg','../assets/images/image3.jpg',' ../assets/images/image4.jpg'];
+    let i = 0;
 
+    setInterval(() => {
+        // Calculate the next index in the images array
+        i = i === images.length - 1 ? 0 : i + 1;
+
+        // Fade out
+        image.style.opacity = 0;
+
+        // Wait for the fade out transition to complete, then update image source and fade in
+        setTimeout(() => {
+            image.src = images[i];
+            image.style.opacity = 1;
+        }, 800); // Adjust timing to match the CSS transition duration
+    },4000); // Interval for updating image (every 2 seconds)
+</script>
+</body>
 </html>
